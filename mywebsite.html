@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+     <title>Navigation Menu Example</title>
+<script>
+    function loginValidation() {
+        var uname = document.myform.username.value;
+        var password = document.myform.password.value;
+            if(uname==null || uname=="") {
+                alert("Name cant be blank")
+                return false;  
+            } else if (password.length<6){
+                alert("Password Must be 6 letters")
+                return false;
+            }  
+                return true;                 
+    }           
+</script>
+    <style>  
+        body{
+            background-color:blanchedalmond;
+            background-size: cover;
+            }
+            @media screen and (min-width:1824px){
+                body{ background-color: rgb(115,9,181);
+                }
+            }  
+                
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {       
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <body background="r8.jpg">
+        
+            
+    </body>
+    <nav>
+        <ul>
+            <li><a href="C:\Users\LabUser\Desktop\UI development\.vscode\project 2\r4.jpg">Home</a></li>
+            <li><a href= "C:\Users\LabUser\Desktop\UI development\.vscode\project 2\2.regpage.html">Registration</a></li>
+            <li><a href="C:\Users\LabUser\Desktop\UI development\.vscode\project 2\1.loginpage.html">login</a></li>
+            <li><a href="C:\Users\LabUser\Desktop\UI development\.vscode\project 2\4.contactpage.html">Contact Us</a></li>
+            <li><a href=" C:\Users\LabUser\Desktop\UI development\.vscode\project 2\r6.jpg">Exit</a></li>
+        </ul>
+    </nav>
+     <center>
+    <h1>Welcome to Our Resort</h1>
+    <p> Enjoy Your Holiday.</p>
+     </center>
+</body>
+</html>
